@@ -5,3 +5,5 @@ Here you can find my Z Camera E2 firmware reverse-engineering results.
 Password for 0.94's "recovery.zip" archive: gmi!!emoclew
 
 (it's made by string "welcome!!img" by reversing letter order -> "gmi!!emoclew")
+
+Password for 0.96's "recovery.zip" archive: 1234564698742
