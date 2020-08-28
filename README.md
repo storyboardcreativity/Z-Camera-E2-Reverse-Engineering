@@ -3,11 +3,12 @@ Here you can find my Z Camera E2 firmware reverse-engineering results.
 
 ## Passwords for archives in firmware
 
-Here are passwords that are user for each encrypted ZIP-archive (for example, **recovery.zip**):
+Here are passwords that are user for each encrypted ZIP-archive (for example, **recovery.zip** or **update_data.zip**):
 
 | Version | ZIP password |
 |:---:|:---:|
 | 0.83 | gmi!!emoclew |
+| 0.87 | gmi!!emoclew |
 | 0.94 | gmi!!emoclew |
 | 0.96 | 1234564698742 |
 
