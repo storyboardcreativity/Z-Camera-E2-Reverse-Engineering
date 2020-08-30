@@ -7,7 +7,9 @@ Here you can find my Z Camera E2 firmware reverse-engineering results.
 
 | Version | E2 | E2C | E2-M4 | E2G | E2-S6 | E2-F6 | E2-F8 |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 0.82 | E | X | X | X | X | X | X |
 | 0.83 | [download](https://drive.google.com/file/d/1jJrGkIRqN6eE69jOVe1uhc4U9xCBTOPn) | X | X | X | X | X | X |
+| 0.84 | E | X | X | X | X | X | X |
 | 0.86 | E | X | X | X | X | X | X |
 | 0.87 | [download](https://drive.google.com/file/d/1289_f3ajGz-suU9szCGJV_OVd_9r2uzm) | X | X | X | X | X | X |
 | 0.88 | [download](https://drive.google.com/file/d/1HfqmnN68fDevtR8M-nH95Obtq-OF6o2E) | U | X | X | X | X | X |
