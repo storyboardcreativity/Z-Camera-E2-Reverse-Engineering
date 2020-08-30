@@ -17,9 +17,12 @@ Here you can find my Z Camera E2 firmware reverse-engineering results.
 | 0.95 | E | E | X | E | E | E | E |
 | 0.96 | [download](https://drive.google.com/file/d/1DjjVKM5Oy5I5vOAyyXAKkuScftbOXqeZ) | E | E | X | E | E | E |
 
-##### Legend
+#### Legend
+
 `X` : does not exist
+
 `E` : exists, but no download link for now
+
 `U` : I don't know if it exists or not
 
 
