@@ -15,8 +15,8 @@ Here you can find my Z Camera E2 firmware reverse-engineering results.
 | 0.88 | [**download**](https://drive.google.com/file/d/1HfqmnN68fDevtR8M-nH95Obtq-OF6o2E) | U | X | X | X | X | X |
 | 0.89 | **E** | **E** | X | X | X | X | X |
 | 0.93 | **E** | **E** | X | **E** | **E** | **E** | **E** |
-| 0.94 | **E** | **E** | X | **E** | **E** | **E** | **E** |
-| 0.95 | **E** | **E** | X | **E** | **E** | **E** | **E** |
+| 0.94 | [**download**](https://drive.google.com/file/d/1g2v4HXRimdkgN7cOArdvZeewZHafO5tc) | **E** | X | **E** | **E** | **E** | **E** |
+| 0.95 | [**download**](https://drive.google.com/file/d/1aTrBeZbWnp2k42D8fWuU3paYSE0iutyv) | **E** | X | **E** | **E** | **E** | **E** |
 | 0.96 | [**download**](https://drive.google.com/file/d/1DjjVKM5Oy5I5vOAyyXAKkuScftbOXqeZ) | **E** | **E** | X | **E** | **E** | **E** |
 
 #### Legend
