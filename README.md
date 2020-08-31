@@ -36,6 +36,7 @@ Z-CAM use AES (128-bit) CFB encryption for main firmware data ZIP-archive (**upd
 | 0.83 | X | X |
 | 0.87 | ```53 7E 15 16``` </br> ```28 AE D2 A6``` </br> ```AB F7 15 88``` </br> ```09 CF 22 3C``` | ```00 01 02 03``` </br> ```04 05 06 07``` </br> ```08 09 0A 0B``` </br> ```0C 0D 0E 0F``` |
 | 0.88 | ```53 7E 15 16``` </br> ```28 AE D2 A6``` </br> ```AB F7 15 88``` </br> ```09 CF 22 3C``` | ```00 01 02 03``` </br> ```04 05 06 07``` </br> ```08 09 0A 0B``` </br> ```0C 0D 0E 0F``` |
+| 0.93 | ```53 7E 15 16``` </br> ```28 AE D2 A6``` </br> ```AB F7 15 88``` </br> ```09 CF 22 3C``` | ```00 01 02 03``` </br> ```04 05 06 07``` </br> ```08 09 0A 0B``` </br> ```0C 0D 0E 0F``` |
 
 #### Legend
 
@@ -49,6 +50,7 @@ Here are passwords that are user for each encrypted ZIP-archive (for example, **
 |:---:|:---:|
 | 0.83 | gmi!!emoclew |
 | 0.87 | gmi!!emoclew |
+| 0.93 | gmi!!emoclew |
 | 0.94 | gmi!!emoclew |
 | 0.96 | 1234564698742 |
 
