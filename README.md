@@ -8,18 +8,21 @@ Here you can find my Z Camera E2 firmware reverse-engineering results.
 | Version | E2 | E2C | E2-M4 | E2G | E2-S6 | E2-F6 | E2-F8 |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | 0.82 | **E** | X | X | X | X | X | X |
-| 0.83 | [**download**](https://drive.google.com/file/d/1jJrGkIRqN6eE69jOVe1uhc4U9xCBTOPn) | X | X | X | X | X | X |
+| 0.83 | [**DL**](https://drive.google.com/file/d/1jJrGkIRqN6eE69jOVe1uhc4U9xCBTOPn) | X | X | X | X | X | X |
 | 0.84 | **E** | X | X | X | X | X | X |
 | 0.86 | **E** | X | X | X | X | X | X |
-| 0.87 | [**download**](https://drive.google.com/file/d/1289_f3ajGz-suU9szCGJV_OVd_9r2uzm) | X | X | X | X | X | X |
-| 0.88 | [**download**](https://drive.google.com/file/d/1HfqmnN68fDevtR8M-nH95Obtq-OF6o2E) | U | X | X | X | X | X |
+| 0.87 | [**DL**](https://drive.google.com/file/d/1289_f3ajGz-suU9szCGJV_OVd_9r2uzm) | X | X | X | X | X | X |
+| 0.88 | [**DL**](https://drive.google.com/file/d/1HfqmnN68fDevtR8M-nH95Obtq-OF6o2E) | U | X | X | X | X | X |
 | 0.89 | **E** | **E** | X | X | X | X | X |
-| 0.93 | [**download**](https://drive.google.com/file/d/11YstktVFOt_yOj3CWSuSffHIsagfVKpt) | **E** | X | **E** | **E** | **E** | **E** |
-| 0.94 | [**download**](https://drive.google.com/file/d/1g2v4HXRimdkgN7cOArdvZeewZHafO5tc) | **E** | X | **E** | **E** | **E** | **E** |
-| 0.95 | [**download**](https://drive.google.com/file/d/1aTrBeZbWnp2k42D8fWuU3paYSE0iutyv) | **E** | X | **E** | **E** | **E** | **E** |
-| 0.96 | [**download**](https://drive.google.com/file/d/1DjjVKM5Oy5I5vOAyyXAKkuScftbOXqeZ) | **E** | **E** | X | **E** | **E** | **E** |
+| 0.93 | [**DL**](https://drive.google.com/file/d/11YstktVFOt_yOj3CWSuSffHIsagfVKpt) | **E** | X | **E** | **E** | **E** | **E** |
+| 0.94 | [**DL**](https://drive.google.com/file/d/1g2v4HXRimdkgN7cOArdvZeewZHafO5tc) | **E** | X | **E** | **E** | **E** | **E** |
+| 0.95 | [**DL**](https://drive.google.com/file/d/1aTrBeZbWnp2k42D8fWuU3paYSE0iutyv) | **E** | X | **E** | **E** | **E** | **E** |
+| 0.96 | [**DL**](https://drive.google.com/file/d/1DjjVKM5Oy5I5vOAyyXAKkuScftbOXqeZ) | **E** | **E** | X | **E** | **E** | **E** |
+| 0.97 | [**DL**](https://drive.google.com/file/d/1igY1f6xUmuhEWwV6j8IypGeL-nhp4chF) | [**DL**](https://drive.google.com/file/d/10uI2smsQGYgBsFFAERJasMwDrE02VjMk) | [**DL**](https://drive.google.com/file/d/1Ddukjq3QJggGJDSvV0rqrvlCaAs3NNzM) | [**DL**](https://drive.google.com/file/d/1OQnNIiD_fmy5N6AXrPKu32hEZklG4N40) | [**DL**](https://drive.google.com/file/d/1imYk0DfRXVHeyqJJ1vggHLfdmRByJJOF) | [**DL**](https://drive.google.com/file/d/1DPGzTaCEEQyAnt7QU3MCifV6rjvAW5Zg) | [**DL**](https://drive.google.com/file/d/1HdtIaZ9XIFx5nFmEaK0Hehij6EVp-hzp) |
 
 #### Legend
+
+`DL` : firmware file download link
 
 `X` : does not exist
 
@@ -65,3 +68,17 @@ Here are passwords that are user for each encrypted ZIP-archive (for example, **
 | E2-S6 | unknown | Sony IMX571 |
 | E2-F6 | unknown | Sony IMX410 |
 | E2-F8 | unknown (HiSilicon) | Sony IMX455 |
+
+## Partitions
+
+| Partition | Description
+|:---:|:---:|
+| mmcblk0p1 | Boot partition |
+| mmcblk0p2 | Environment data partition |
+| mmcblk0p3 | Recovery |
+| mmcblk0p4 | nv (mounted as /tmp/nv) |
+| mmcblk0p5 | Linux Kernel |
+| mmcblk0p6 | RootFS |
+| mmcblk0p7 | pref (mounted as /tmp/data) |
+| mmcblk0p8 | data (mounted as /tmp/storage) |
+| mmcblk0p9 | hibernate (???) |
