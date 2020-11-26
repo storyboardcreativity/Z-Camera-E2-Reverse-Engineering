@@ -5,6 +5,8 @@
 typedef enum E2_FW_version
 {
     unknown,
+    v0_87,
+    v0_88,
     v0_93,
     v0_96
 } E2_FW_version_t;
