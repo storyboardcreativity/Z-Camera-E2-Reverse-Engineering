@@ -102,6 +102,7 @@ Use my update_data_crypter tool to decrypt update_data.zip for your firmware ver
 #### 5. Unpack RootFS
 
 `mkdir rootfs`
+
 `tar -xzf rootfs.tar.gz -C rootfs`
 
 #### 6. Make any changes in unpacked RootFS you want
@@ -111,6 +112,7 @@ You know what to do here :)
 #### 7. Pack RootFS
 
 `cd rootfs`
+
 `tar -czvf ./../rootfs.tar.gz *`
 
 #### 8. Pack update_data.zip
