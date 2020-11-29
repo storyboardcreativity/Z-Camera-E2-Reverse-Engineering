@@ -31,6 +31,12 @@ Here you can find my Z-CAM E2 firmware reverse-engineering results.
 
 `U` : I don't know if it exists or not
 
+## Custom firmwares
+
+Panasonic-like recording indicator (based on Z-CAM E2 FW v0.93):
+
+https://drive.google.com/file/d/1GijjGMIjitrbCn3K4gdk3OxCYkQl__Sf
+
 ## AES encryption
 
 Z-CAM use AES (128-bit) CFB encryption for main firmware data ZIP-archive (**update_data.bin**).
@@ -88,22 +94,51 @@ Here are passwords that are user for each encrypted ZIP-archive (for example, **
 
 ### On Linux:
 
+#### Warning!
+
+All next actions must be done in case-sensitive filesystem, that supports symbolic links!
+
 #### 1. Download official firmware file
 
 You can find firmware file links on Z-CAM official web-site or on this page (watch "Original Firmwares" section above).
 
 #### 2. Unpack firmware file as ZIP-archive
+
+`mkdir update`
+
+`unzip update.zip -d update`
+
+`rm update.zip`
+
+`cd update`
+
 #### 3. Decrypt update_data.bin file to update_data.zip
 
-Use my update_data_crypter tool to decrypt update_data.zip for your firmware version. Example:
-`/<path_to_crypter>/crypter -d -v0.96 -i update_data.bin -o update_data.zip`
+Use my **update_data_crypter** tool to decrypt `update_data.zip` for your firmware version.
 
-#### 4. Unpack update_data.zip
+Example:
+
+`/<path_to_crypter>/crypter -d -v0.93 -i update_data.bin -o update_data.zip`
+
+#### 4. Unpack update_data.zip using password you can find above
+
+Don't forget to use escaping for special characters. For example, password `gmi!!emoclew` must be converted to `gmi\!\!emoclew` in terminal.
+
+`mkdir update_data`
+
+`unzip -P <place_password_here> update_data.zip -d update_data`
+
+`rm update_data.zip`
+
+`cd update_data`
+
 #### 5. Unpack RootFS
 
 `mkdir rootfs`
 
 `tar -xzf rootfs.tar.gz -C rootfs`
+
+`rm rootfs.tar.gz`
 
 #### 6. Make any changes in unpacked RootFS you want
 
@@ -115,18 +150,42 @@ You know what to do here :)
 
 `tar -czvf ./../rootfs.tar.gz *`
 
+`cd ..`
+
+`rm -rf rootfs`
+
 #### 8. Pack update_data.zip
 
+`zip -P <place_password_here> -0 -r ../update_data.zip *`
 
+`cd ..`
+
+`rm -rf update_data`
 
 #### 9. Encrypt update_data.zip file to update_data.bin
 
-Use my update_data_crypter tool to encrypt update_data.zip for your firmware version. Example:
-`/<path_to_crypter>/crypter -e -v0.96 -i update_data.zip -o update_data.bin`
+Use my **update_data_crypter** tool to encrypt `update_data.zip` for your firmware version. Important: DO NOT use old name `update_data.bin` because this file is needed for signature checking.
 
-#### 10. Recalculate MD5 for update_data.bin
-#### 11. Force firmware signature checking bypass
+Example:
 
-Change last symbol in version.txt from "n" to "y"
+`/<path_to_crypter>/crypter -e -v0.93 -i update_data.zip -o update_data_new.bin`
 
-#### 12. Pack firmware to uncompressed ZIP
+`rm update_data.zip`
+
+#### 10. Patch install_binary executable file to bypass signature checking
+
+A bit complicated to explain here.
+
+#### 11. Recalculate MD5 for all files, listed in md5.txt
+
+`md5sum version.txt update_data.bin install_binary update.script > md5.txt`
+
+#### 12. Pack firmware to normal deflate-compressed ZIP
+
+`zip -r ../update.zip *`
+
+`cd ..`
+
+`rm -rf update`
+
+**Ready! Now you can flash your firmware to your camera and test it!**
