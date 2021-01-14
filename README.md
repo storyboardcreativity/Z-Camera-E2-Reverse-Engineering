@@ -20,6 +20,7 @@ Here you can find my Z-CAM E2 firmware reverse-engineering results.
 | 0.96 | [**DL**](https://drive.google.com/file/d/1DjjVKM5Oy5I5vOAyyXAKkuScftbOXqeZ) | **E** | **E** | X | **E** | **E** | **E** |
 | 0.97 | [**DL**](https://drive.google.com/file/d/1igY1f6xUmuhEWwV6j8IypGeL-nhp4chF) | [**DL**](https://drive.google.com/file/d/10uI2smsQGYgBsFFAERJasMwDrE02VjMk) | [**DL**](https://drive.google.com/file/d/1Ddukjq3QJggGJDSvV0rqrvlCaAs3NNzM) | [**DL**](https://drive.google.com/file/d/1OQnNIiD_fmy5N6AXrPKu32hEZklG4N40) | [**DL**](https://drive.google.com/file/d/1imYk0DfRXVHeyqJJ1vggHLfdmRByJJOF) | [**DL**](https://drive.google.com/file/d/1DPGzTaCEEQyAnt7QU3MCifV6rjvAW5Zg) | [**DL**](https://drive.google.com/file/d/1HdtIaZ9XIFx5nFmEaK0Hehij6EVp-hzp) |
 | 0.97.1 | [**DL**](https://drive.google.com/file/d/1Vp1x7MhtYsIhUIgGep1ZX3zutS3AanU8) | [**DL**](https://drive.google.com/file/d/16qLAsOQNT_SNFYuSKrE2wNoIA47Ej0oX) | [**DL**](https://drive.google.com/file/d/1ZSLHlU8PaHovMF3occNHyd5mvIg5gP1x) | [**DL**](https://drive.google.com/file/d/1QGN0d2cJfvkPznCpVnHsH4ICZIzv--fT) | [**DL**](https://drive.google.com/file/d/1RHaN0Df6xYmtW_w8USCdXUJ7Eao5wwwm) | [**DL**](https://drive.google.com/file/d/1NTQNwp1CqlX5PepemH_h9Nifs-5_SOKb) | [**DL**](https://drive.google.com/file/d/1AZqEom5JhsMikOu17mD-yJdOyvEGortr) |
+| 0.98 | **E** | **E** | **E** | **E** | **E** | **E** | **E** |
 
 #### Legend
 
@@ -48,6 +49,9 @@ Z-CAM use AES (128-bit) CFB encryption for main firmware data ZIP-archive (**upd
 | 0.88 | ```53 7E 15 16``` </br> ```28 AE D2 A6``` </br> ```AB F7 15 88``` </br> ```09 CF 22 3C``` | ```00 01 02 03``` </br> ```04 05 06 07``` </br> ```08 09 0A 0B``` </br> ```0C 0D 0E 0F``` |
 | 0.93 | ```53 7E 15 16``` </br> ```28 AE D2 A6``` </br> ```AB F7 15 88``` </br> ```09 CF 22 3C``` | ```00 01 02 03``` </br> ```04 05 06 07``` </br> ```08 09 0A 0B``` </br> ```0C 0D 0E 0F``` |
 | 0.96 | ```CF 55 5B B7``` </br> ```BF 0E 45 6E``` </br> ```94 10 D0 15``` </br> ```D7 5F E3 5B``` | ```00 01 02 03``` </br> ```04 05 06 07``` </br> ```08 09 0A 0B``` </br> ```0C 0D 0E 0F``` |
+| 0.97 | ```CF 55 5B B7``` </br> ```BF 0E 45 6E``` </br> ```94 10 D0 15``` </br> ```D7 5F E3 5B``` | ```00 01 02 03``` </br> ```04 05 06 07``` </br> ```08 09 0A 0B``` </br> ```0C 0D 0E 0F``` |
+| 0.97.1 | ```CF 55 5B B7``` </br> ```BF 0E 45 6E``` </br> ```94 10 D0 15``` </br> ```D7 5F E3 5B``` | ```00 01 02 03``` </br> ```04 05 06 07``` </br> ```08 09 0A 0B``` </br> ```0C 0D 0E 0F``` |
+| 0.98 | ```CF 55 5B B7``` </br> ```BF 0E 45 6E``` </br> ```94 10 D0 15``` </br> ```D7 5F E3 5B``` | ```00 01 02 03``` </br> ```04 05 06 07``` </br> ```08 09 0A 0B``` </br> ```0C 0D 0E 0F``` |
 
 #### Legend
 
@@ -59,11 +63,14 @@ Here are passwords that are user for each encrypted ZIP-archive (for example, **
 
 | Version | ZIP password |
 |:---:|:---:|
-| 0.83 | gmi!!emoclew |
-| 0.87 | gmi!!emoclew |
-| 0.93 | gmi!!emoclew |
-| 0.94 | gmi!!emoclew |
-| 0.96 | 1234564698742 |
+|  0.83  | gmi!!emoclew |
+|  0.87  | gmi!!emoclew |
+|  0.93  | gmi!!emoclew |
+|  0.94  | gmi!!emoclew |
+|  0.96  | 1234564698742 |
+|  0.97  | 1234564698742 |
+| 0.97.1 | 1234564698742 |
+|  0.98  | 1234564698742 |
 
 ## Hardware
 
