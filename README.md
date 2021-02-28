@@ -7,6 +7,8 @@ Here you can find my Z-CAM E2 firmware reverse-engineering results.
 
 | Version | E2 | E2C | E2-M4 | E2G | E2-S6 | E2-F6 | E2-F8 |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 0.81 | **E** | X | X | X | X | X | X |
+| 0.82 beta | **E** | X | X | X | X | X | X |
 | 0.82 | **E** | X | X | X | X | X | X |
 | 0.83 | [**DL**](https://drive.google.com/file/d/1jJrGkIRqN6eE69jOVe1uhc4U9xCBTOPn) | X | X | X | X | X | X |
 | 0.84 | **E** | X | X | X | X | X | X |
@@ -66,7 +68,8 @@ Here are passwords that are user for each encrypted ZIP-archive (for example, **
 |  0.83  | gmi!!emoclew |
 |  0.87  | gmi!!emoclew |
 |  0.93  | gmi!!emoclew |
-|  0.94  | gmi!!emoclew |
+|  0.94  | 1234564698742 |
+|  0.95  | 1234564698742 |
 |  0.96  | 1234564698742 |
 |  0.97  | 1234564698742 |
 | 0.97.1 | 1234564698742 |

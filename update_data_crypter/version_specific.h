@@ -8,6 +8,8 @@ typedef enum E2_FW_version
     v0_87,
     v0_88,
     v0_93,
+    v0_94,
+    v0_95,
     v0_96,
     v0_97,
     v0_97_1,
