@@ -38,7 +38,7 @@ void show_usage(char *argv0)
 
     printf("\t-d - decrypt\n");
     printf("\t-e - encrypt\n");
-    printf("\t-v# - firmware version (allowed: 0.87, 0.88, 0.93, 0.96)\n\n");
+    printf("\t-v# - firmware version (allowed: 0.87, 0.88, 0.93, 0.94, 0.95, 0.96, 0.97, 0.97.1, 0.98, 0.98.1, 0.98.2)\n\n");
 
     printf("Example (decrypt): %s -d -v0.96 -i update_data.bin -o update_data.zip\n", argv0);
     printf("Example (encrypt): %s -e -v0.96 -i update_data.zip -o update_data.bin\n", argv0);

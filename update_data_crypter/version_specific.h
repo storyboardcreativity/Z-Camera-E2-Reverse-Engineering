@@ -13,7 +13,9 @@ typedef enum E2_FW_version
     v0_96,
     v0_97,
     v0_97_1,
-    v0_98
+    v0_98,
+    v0_98_1,
+    v0_98_2
 } E2_FW_version_t;
 
 E2_FW_version_t get_version_enum(char* version_string);

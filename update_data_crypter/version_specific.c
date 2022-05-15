@@ -5,7 +5,7 @@
 
 /* ===================== AES IVEC ===================== */
 
-// IVEC for v0.87, v0.88, v0.93, v0.94, v0.95, v0.96, v0.97, v0.97.1, v0.98
+// IVEC for v0.87, v0.88, v0.93, v0.94, v0.95, v0.96, v0.97, v0.97.1, v0.98, v0.98.1, v0.98.2
 const uint8_t aes_ivec__v_0_87[17] =
 {
     0x00, 0x01, 0x02, 0x03,
@@ -27,7 +27,7 @@ const uint8_t aes_key__v_0_87[17] =
     0x00
 };
 
-// AES key for 0.94, 0.95, 0.96, 0.97, 0.97.1, v0.98
+// AES key for 0.94, 0.95, 0.96, 0.97, 0.97.1, v0.98, v0.98.1, v0.98.2
 const uint8_t aes_key__v_0_94[17] =
 {
     0xCF, 0x55, 0x5B, 0xB7,
@@ -57,6 +57,10 @@ E2_FW_version_t get_version_enum(char* version_string)
         return v0_97_1;
     if (strcmp(version_string, "0.98") == 0)
         return v0_98;
+    if (strcmp(version_string, "0.98.1") == 0)
+        return v0_98_1;
+    if (strcmp(version_string, "0.98.2") == 0)
+        return v0_98_2;
     return unknown;
 }
 
@@ -73,6 +77,8 @@ void init_aes_ivec(uint8_t (*aes_ivec_dest)[17], E2_FW_version_t version)
     case v0_97:
     case v0_97_1:
     case v0_98:
+    case v0_98_1:
+    case v0_98_2:
         memcpy(*aes_ivec_dest, aes_ivec__v_0_87, sizeof(*aes_ivec_dest));
         break;
     }
@@ -94,6 +100,8 @@ void init_aes_key(uint8_t (*aes_key_dest)[17], E2_FW_version_t version)
     case v0_97:
     case v0_97_1:
     case v0_98:
+    case v0_98_1:
+    case v0_98_2:
         memcpy(*aes_key_dest, aes_key__v_0_94, sizeof(*aes_key_dest));
         break;
     }
