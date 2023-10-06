@@ -5,26 +5,28 @@ Here you can find my Z-CAM E2 firmware reverse-engineering results.
 
 *Z-CAM very often delete links to old firmware versions on the official website, so I have to make copies for you in order not to lose them forever.*
 
-| Version | E2 | E2C | E2-M4 | E2G | E2-S6 | E2-F6 | E2-F8 | E2-S6G |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 0.81 | **E** | X | X | X | X | X | X | X |
-| 0.82 beta | **E** | X | X | X | X | X | X | X |
-| 0.82 | **E** | X | X | X | X | X | X | X |
-| 0.83 | [**DL**](https://drive.google.com/file/d/1jJrGkIRqN6eE69jOVe1uhc4U9xCBTOPn) | X | X | X | X | X | X | X |
-| 0.84 | **E** | X | X | X | X | X | X | X |
-| 0.86 | **E** | X | X | X | X | X | X | X |
-| 0.87 | [**DL**](https://drive.google.com/file/d/1289_f3ajGz-suU9szCGJV_OVd_9r2uzm) | X | X | X | X | X | X | X |
-| 0.88 | [**DL**](https://drive.google.com/file/d/1HfqmnN68fDevtR8M-nH95Obtq-OF6o2E) | U | X | X | X | X | X | X |
-| 0.89 | **E** | **E** | X | X | X | X | X | X |
-| 0.93 | [**DL**](https://drive.google.com/file/d/11YstktVFOt_yOj3CWSuSffHIsagfVKpt) | **E** | X | **E** | **E** | **E** | **E** | X |
-| 0.94 | [**DL**](https://drive.google.com/file/d/1g2v4HXRimdkgN7cOArdvZeewZHafO5tc) | **E** | X | **E** | **E** | **E** | **E** | X |
-| 0.95 | [**DL**](https://drive.google.com/file/d/1aTrBeZbWnp2k42D8fWuU3paYSE0iutyv) | **E** | X | **E** | **E** | **E** | **E** | X |
-| 0.96 | [**DL**](https://drive.google.com/file/d/1DjjVKM5Oy5I5vOAyyXAKkuScftbOXqeZ) | **E** | **E** | X | **E** | **E** | **E** | X |
-| 0.97 | [**DL**](https://drive.google.com/file/d/1igY1f6xUmuhEWwV6j8IypGeL-nhp4chF) | [**DL**](https://drive.google.com/file/d/10uI2smsQGYgBsFFAERJasMwDrE02VjMk) | [**DL**](https://drive.google.com/file/d/1Ddukjq3QJggGJDSvV0rqrvlCaAs3NNzM) | [**DL**](https://drive.google.com/file/d/1OQnNIiD_fmy5N6AXrPKu32hEZklG4N40) | [**DL**](https://drive.google.com/file/d/1imYk0DfRXVHeyqJJ1vggHLfdmRByJJOF) | [**DL**](https://drive.google.com/file/d/1DPGzTaCEEQyAnt7QU3MCifV6rjvAW5Zg) | [**DL**](https://drive.google.com/file/d/1HdtIaZ9XIFx5nFmEaK0Hehij6EVp-hzp) | X |
-| 0.97.1 | [**DL**](https://drive.google.com/file/d/1Vp1x7MhtYsIhUIgGep1ZX3zutS3AanU8) | [**DL**](https://drive.google.com/file/d/16qLAsOQNT_SNFYuSKrE2wNoIA47Ej0oX) | [**DL**](https://drive.google.com/file/d/1ZSLHlU8PaHovMF3occNHyd5mvIg5gP1x) | [**DL**](https://drive.google.com/file/d/1QGN0d2cJfvkPznCpVnHsH4ICZIzv--fT) | [**DL**](https://drive.google.com/file/d/1RHaN0Df6xYmtW_w8USCdXUJ7Eao5wwwm) | [**DL**](https://drive.google.com/file/d/1NTQNwp1CqlX5PepemH_h9Nifs-5_SOKb) | [**DL**](https://drive.google.com/file/d/1AZqEom5JhsMikOu17mD-yJdOyvEGortr) | X |
-| 0.98 | **E** | **E** | **E** | **E** | **E** | **E** | **E** | **E** |
-| 0.98.1 | **E** | X | **E** | X | X | X | X | X |
-| 0.98.2 | **E** | X | **E** | X | X | X | X | X |
+| Version | E2 | E2C | E2-M4 | E2G | E2-S6 | E2-F6 | E2-F8 | E2-S6G | E2-F6 Pro |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 0.81 | **E** | X | X | X | X | X | X | X | X |
+| 0.82 beta | **E** | X | X | X | X | X | X | X | X |
+| 0.82 | **E** | X | X | X | X | X | X | X | X |
+| 0.83 | [**DL**](https://drive.google.com/file/d/1jJrGkIRqN6eE69jOVe1uhc4U9xCBTOPn) | X | X | X | X | X | X | X | X |
+| 0.84 | **E** | X | X | X | X | X | X | X | X |
+| 0.86 | **E** | X | X | X | X | X | X | X | X |
+| 0.87 | [**DL**](https://drive.google.com/file/d/1289_f3ajGz-suU9szCGJV_OVd_9r2uzm) | X | X | X | X | X | X | X | X |
+| 0.88 | [**DL**](https://drive.google.com/file/d/1HfqmnN68fDevtR8M-nH95Obtq-OF6o2E) | U | X | X | X | X | X | X | X |
+| 0.89 | **E** | **E** | X | X | X | X | X | X | X |
+| 0.93 | [**DL**](https://drive.google.com/file/d/11YstktVFOt_yOj3CWSuSffHIsagfVKpt) | **E** | X | **E** | **E** | **E** | **E** | X | X |
+| 0.94 | [**DL**](https://drive.google.com/file/d/1g2v4HXRimdkgN7cOArdvZeewZHafO5tc) | **E** | X | **E** | **E** | **E** | **E** | X | X |
+| 0.95 | [**DL**](https://drive.google.com/file/d/1aTrBeZbWnp2k42D8fWuU3paYSE0iutyv) | **E** | X | **E** | **E** | **E** | **E** | X | X |
+| 0.96 | [**DL**](https://drive.google.com/file/d/1DjjVKM5Oy5I5vOAyyXAKkuScftbOXqeZ) | **E** | **E** | X | **E** | **E** | **E** | X | X |
+| 0.97 | [**DL**](https://drive.google.com/file/d/1igY1f6xUmuhEWwV6j8IypGeL-nhp4chF) | [**DL**](https://drive.google.com/file/d/10uI2smsQGYgBsFFAERJasMwDrE02VjMk) | [**DL**](https://drive.google.com/file/d/1Ddukjq3QJggGJDSvV0rqrvlCaAs3NNzM) | [**DL**](https://drive.google.com/file/d/1OQnNIiD_fmy5N6AXrPKu32hEZklG4N40) | [**DL**](https://drive.google.com/file/d/1imYk0DfRXVHeyqJJ1vggHLfdmRByJJOF) | [**DL**](https://drive.google.com/file/d/1DPGzTaCEEQyAnt7QU3MCifV6rjvAW5Zg) | [**DL**](https://drive.google.com/file/d/1HdtIaZ9XIFx5nFmEaK0Hehij6EVp-hzp) | X | **E** |
+| 0.97.1 | [**DL**](https://drive.google.com/file/d/1Vp1x7MhtYsIhUIgGep1ZX3zutS3AanU8) | [**DL**](https://drive.google.com/file/d/16qLAsOQNT_SNFYuSKrE2wNoIA47Ej0oX) | [**DL**](https://drive.google.com/file/d/1ZSLHlU8PaHovMF3occNHyd5mvIg5gP1x) | [**DL**](https://drive.google.com/file/d/1QGN0d2cJfvkPznCpVnHsH4ICZIzv--fT) | [**DL**](https://drive.google.com/file/d/1RHaN0Df6xYmtW_w8USCdXUJ7Eao5wwwm) | [**DL**](https://drive.google.com/file/d/1NTQNwp1CqlX5PepemH_h9Nifs-5_SOKb) | [**DL**](https://drive.google.com/file/d/1AZqEom5JhsMikOu17mD-yJdOyvEGortr) | X | **E** |
+| 0.98 | **E** | **E** | **E** | **E** | **E** | **E** | **E** | **E** | X |
+| 0.98.1 | **E** | X | **E** | X | X | X | X | X | X |
+| 0.98.2 | **E** | X | **E** | X | X | X | X | X | X |
+| 1.0.0 | **E** | **E** | **E** | X | **E** | **E** | **E** | X | X |
+| 1.0.1 | **E** | X | **E** | X | **E** | **E** | **E** | X | X |
 
 #### Legend
 
