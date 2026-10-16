@@ -1,0 +1,28 @@
+# Z CAM E2-S6G Mark II
+
+## Average announce date
+
+01.06.2026 - [Link](https://www.videostar.com/products/)
+
+## Original Firmwares
+
+| Version | Firmware File |
+|:---:|:---:|
+| ? | U |
+| 1.0.13 | **E** |
+| 1.0.14 | **E** |
+| 1.0.15 | **E** |
+| 1.0.16 | **E** |
+| 1.0.17 | **E** |
+| 1.0.18 | U |
+| 1.0.19 | **E** |
+
+#### Legend
+
+`DL` : firmware file download link
+
+`X` : does not exist
+
+`E` : exists, but no download link for now
+
+`U` : I don't know if it exists or not

@@ -1,0 +1,53 @@
+# Z CAM E2-S6G
+
+## Average announce date
+
+22.07.2021 - [Link](https://www.solectric.de/2021/07/22/new-z-cam-e2-s6g-for-high-quality-action-packed-shooting/?lang=en)
+
+## Original Firmwares
+
+| Version | Firmware File |
+|:---:|:---:|
+| 0.81 | X |
+| 0.82 beta | X |
+| 0.82 | X |
+| 0.83 | X |
+| 0.84 | X |
+| 0.86 | X |
+| 0.87 | X |
+| 0.88 | X |
+| 0.89 | X |
+| 0.93 | X |
+| 0.94 | X |
+| 0.95 | X |
+| 0.96 | X |
+| 0.97 | X |
+| 0.97.1 | X |
+| 0.98.0 | **E** |
+| 0.98.1 | X |
+| 0.98.2 | X |
+| 0.9.3 | X |
+| 0.9.9 | X |
+| 1.0.0 | X |
+| 1.0.1 | X |
+| 1.0.3 | **E** |
+| ? | U |
+| 1.0.6 | U |
+| 1.0.7 | U |
+| 1.0.10 | U |
+| 1.0.11 | U |
+| 1.0.13 | **E** |
+| 1.0.14 | **E** |
+| 1.0.15 | **E** |
+| 1.0.18 | **E** |
+| 1.0.19 | **E** |
+
+#### Legend
+
+`DL` : firmware file download link
+
+`X` : does not exist
+
+`E` : exists, but no download link for now
+
+`U` : I don't know if it exists or not

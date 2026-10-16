@@ -1,6 +1,4 @@
-# Z-CAM E2 Firmware v0.83
-
-## Firmware structure
+# Z-CAM E2 Firmware Structure (v0.83)
 
 ```
 update.zip
