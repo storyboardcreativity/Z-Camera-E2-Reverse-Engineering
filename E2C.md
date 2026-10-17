@@ -17,8 +17,8 @@
 | 0.87 | - | Doesn't exist |
 | 0.88 | ? | Unknown |
 | 0.89 | ? | **Exists** |
-| 0.93 | ? | **Exists** |
-| 0.94 | ? | **Exists** |
+| 0.93 | ? | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/0.93/E2C.zip) |
+| 0.94 | ? | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/0.94/E2C.zip) |
 | 0.95 | ? | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/0.95/E2C.zip) |
 | 0.96 | ? | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/0.96/E2C.zip) |
 | 0.97 | ? | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/0.97.0/E2C.zip) |

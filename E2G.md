@@ -9,8 +9,8 @@
 | Version | Date | Firmware File |
 |:---:|:---:|:---:|
 | 0.81 - 0.89 | - | X |
-| 0.93 | ? | **E** |
-| 0.94 | ? | **E** |
+| 0.93 | ? | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/0.93/E2G.zip) |
+| 0.94 | ? | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/0.94/E2G.zip) |
 | 0.95 | ? | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/0.95/E2G.zip) |
 | 0.96 | - | X |
 | 0.97 | ? | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/0.97.0/E2G.zip) |
