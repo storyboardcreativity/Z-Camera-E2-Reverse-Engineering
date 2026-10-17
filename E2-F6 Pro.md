@@ -8,20 +8,9 @@
 
 | Version | Date | Firmware File |
 |:---:|:---:|:---:|
-| 0.81 | - | X |
-| 0.82 beta | - | X |
-| 0.82 | - | X |
-| 0.83 | - | X |
-| 0.84 | - | X |
-| 0.86 | - | X |
-| 0.87 | - | X |
-| 0.88 | - | X |
-| 0.89 | - | X |
-| 0.93 | - | X |
-| 0.94 | - | X |
-| 0.95 | - | X |
-| 0.96 | ? | **E** |
-| 0.97 | ? | **E** |
+| 0.81 - 0.95 | - | X |
+| 0.96 | ? | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/0.96/E2-F6.Pro.zip) |
+| 0.97 | ? | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/0.97.0/E2-F6.Pro.zip) |
 | 0.97.1 | ? | **E** |
 | 0.98 | ? | **E** |
 | 0.98.1 | - | X |

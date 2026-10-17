@@ -19,20 +19,20 @@
 | 0.89 | ? | **Exists** |
 | 0.93 | ? | **Exists** |
 | 0.94 | ? | **Exists** |
-| 0.95 | ? | **Exists** |
-| 0.96 | ? | **Exists** |
-| 0.97 | ? | [**DL**](https://drive.google.com/file/d/10uI2smsQGYgBsFFAERJasMwDrE02VjMk) |
-| 0.97.1 | ? | [**DL**](https://drive.google.com/file/d/16qLAsOQNT_SNFYuSKrE2wNoIA47Ej0oX) |
-| 0.98.0 | ? | **Exists** |
+| 0.95 | ? | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/0.95/E2C.zip) |
+| 0.96 | ? | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/0.96/E2C.zip) |
+| 0.97 | ? | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/0.97.0/E2C.zip) |
+| 0.97.1 | ? | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/0.97.1/E2C.zip) |
+| 0.98.0 | ? | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/0.98.0/E2C.zip) |
 | 0.98.1 | - | Doesn't exist |
 | 0.98.2 | - | Doesn't exist |
 | 0.9.3 | - | Doesn't exist |
 | 0.9.9 | - | Doesn't exist |
-| 1.0.0 | ? | **Exists** |
+| 1.0.0 | ? | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/1.0.0/E2C.zip) |
 | 1.0.1 | - | Doesn't exist |
 | 1.0.3 | - | Doesn't exist |
 | ? | ? | U |
-| 1.0.6 | ? | **Exists** |
+| 1.0.6 | ? | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/1.0.6/E2C_FW_1.0.6.fw) |
 | 1.0.7 | U | ? |
 | 1.0.10 | 08.08.2025 | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/1.0.10/E2C_FW_1.0.10.fw) |
 | 1.0.11 | 20.10.2025 | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/1.0.11/E2C_FW_1.0.11.fw) |
