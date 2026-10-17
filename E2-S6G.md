@@ -37,13 +37,13 @@
 | 1.0.10 | ? | U |
 | 1.0.11 | ? | U |
 | 1.0.12 | ? | U |
-| 1.0.13 | 05.01.2026 | **E** |
-| 1.0.14 | 21.03.2026 | **E** |
-| 1.0.15 | 07.06.2026 | **E** |
+| 1.0.13 | 05.01.2026 | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/1.0.13/E2_S6G_FW_1.0.13.fw) |
+| 1.0.14 | 21.03.2026 | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/1.0.14/E2_S6G_FW_1.0.14.fw) |
+| 1.0.15 | 07.06.2026 | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/1.0.15/E2_S6G_FW_1.0.15.fw) |
 | 1.0.16 | ? | U |
 | 1.0.17 | ? | U |
-| 1.0.18 | 17.09.2026 | **E** |
-| 1.0.19 | 13.10.2026 | **E** |
+| 1.0.18 | 17.09.2026 | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/1.0.18/E2_S6G_FW_1.0.18.fw) |
+| 1.0.19 | 13.10.2026 | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/1.0.19/E2_S6G_FW_1.0.19.fw) |
 
 #### Legend
 
