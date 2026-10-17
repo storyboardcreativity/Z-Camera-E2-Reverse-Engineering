@@ -9,6 +9,8 @@
 | Version | Date | Firmware File |
 |:---:|:---:|:---:|
 | ? | - | U |
+| 1.0.6 | 14.03.2025 | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/1.0.6/E2_M4_MKII_FW_1.0.6.fw) |
+| ? | ? | U |
 | 1.0.10 | 08.08.2025 | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/1.0.10/E2_M4_MKII_FW_1.0.10.fw) |
 | 1.0.11 | 20.10.2025 | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/1.0.11/E2_M4_MKII_FW_1.0.11.fw) |
 | 1.0.12 | 12.12.2025 | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/1.0.12/E2_M4_MKII_FW_1.0.12.fw) |

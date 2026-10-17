@@ -16,10 +16,11 @@
 | 0.9.9 | - | X |
 | 1.0.0 | - | X |
 | 1.0.1 | - | X |
-| 1.0.3 | ? | **E** |
+| 1.0.3 | 29.12.2023 | **E** |
 | ? | ? | U |
-| 1.0.6 | ? | U |
+| 1.0.6 | 06.03.2025 | **E** |
 | 1.0.7 | ? | U |
+| 1.0.8 | 08.06.2025 | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/1.0.8/E2_S6G_FW_1.0.8.fw) |
 | 1.0.10 | ? | U |
 | 1.0.11 | ? | U |
 | 1.0.12 | ? | U |
