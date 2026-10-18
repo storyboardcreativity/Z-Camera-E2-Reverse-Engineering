@@ -8,17 +8,9 @@
 
 | Version | Date | Firmware File |
 |:---:|:---:|:---:|
-| ? | - | U |
-| 1.0.5 | 01.07.2026 | **E** |
-| 1.0.6 | - | X |
-| 1.0.7 | - | X |
-| 1.0.10 | - | X |
-| 1.0.11 | - | X |
-| 1.0.13 | - | X |
-| 1.0.14 | - | X |
-| 1.0.15 | - | X |
-| 1.0.18 | - | X |
-| 1.0.19 | - | X |
+| ? | ? | U |
+| 1.0.5 | 01.07.2026 | [**Download**](https://github.com/storyboardcreativity/Z-Camera-E2-Reverse-Engineering/releases/download/1.0.5/E2N_MKII_FW_1.0.5.fw) |
+| 1.0.6 - 1.0.19 | - | X |
 
 #### Legend
 
